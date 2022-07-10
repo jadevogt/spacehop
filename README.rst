@@ -1,6 +1,21 @@
 #####################
 Space Hop Backend API
 #####################
+.. |audio test| image:: https://github.com/jadevogt/spacehop-api/actions/workflows/test_audio.yml/badge.svg
+   :height: 20
+.. |characters test| image:: https://github.com/jadevogt/spacehop-api/actions/workflows/test_characters.yml/badge.svg
+   :height: 20
+.. |events test| image:: https://github.com/jadevogt/spacehop-api/actions/workflows/test_events.yml/badge.svg
+   :height: 20
+.. |images test| image:: https://github.com/jadevogt/spacehop-api/actions/workflows/test_images.yml/badge.svg
+   :height: 20
+.. |scenes test| image:: https://github.com/jadevogt/spacehop-api/actions/workflows/test_scenes.yml/badge.svg
+   :height: 20
+|audio test|
+|characters test|
+|events test|
+|images test|
+|scenes test|
 
 ********
 Overview
