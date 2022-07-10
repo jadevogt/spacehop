@@ -8,8 +8,6 @@ authors = ["jadevogt <me@jadev.dev>"]
 python = "^3.10"
 Django = "^4.0.6"
 djangorestframework = "^3.13.1"
-pytest = "^5.2"
-pytest-cov = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.14.4"
