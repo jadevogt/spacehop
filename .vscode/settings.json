@@ -2,5 +2,9 @@
     "editor.insertSpaces": false,
 	"editor.detectIndentation": false,
 	"python.linting.pylintEnabled": true,
-	"python.linting.mypyEnabled": true
+	"python.linting.mypyEnabled": true,
+	"python.linting.pylintArgs": [
+		"--load-plugins",
+		"pylint_django"
+	]
 }

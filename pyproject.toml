@@ -8,6 +8,7 @@ authors = ["jadevogt <me@jadev.dev>"]
 python = "^3.10"
 Django = "^4.0.6"
 djangorestframework = "^3.13.1"
+pylint-django = "^2.5.3"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.14.4"
@@ -15,6 +16,10 @@ mypy = "^0.961"
 
 [tool.pylint]
 indent-string = '	'
+load-plugins = [
+	"pylint_django"
+]
+django-settings-module = "spacehop.settings"
 
 [tool.mypy]
 disallow_untyped_defs = true
